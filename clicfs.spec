@@ -1,5 +1,10 @@
 Name:           clicfs
-BuildRequires:  cmake e2fsprogs-devel fuse-devel gcc-c++ openssl-devel xz
+BuildRequires:  cmake 
+BuildRequires:  e2fsprogs-devel 
+BuildRequires:  fuse-devel 
+BuildRequires:  gcc-c++ 
+BuildRequires:  openssl-devel
+BuildRequires:  liblzma-devel
 Requires:       fuse
 Summary:        Compressed Loop Image Container
 Version:        1.4.0
